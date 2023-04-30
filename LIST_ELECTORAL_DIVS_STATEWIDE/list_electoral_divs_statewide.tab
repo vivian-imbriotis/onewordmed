@@ -1,0 +1,18 @@
+!table
+!version 300
+!charset WindowsLatin1
+!edit_version 450
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 10
+    ELECTOR_ID Decimal (10, 0) ;
+    NAME Char (60) ;
+    PLAN_REF Char (8) ;
+    COMMENTS Char (50) ;
+    UFI Char (38) ;
+    CREATED_ON Char (19) ;
+    LIST_GUID Char (38) ;
+    NOM_REG_NO Char (7) ;
+    SHAPE_AREA Decimal (19, 11) ;
+    SHAPE_LEN Decimal (19, 11) ;
